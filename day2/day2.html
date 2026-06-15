@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+    </head>
+    <body>
+        <form action="#" method="POST" target="_blank" required>
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="Enter a name " id="name" required><br><br>
+        <label >Email</label>
+        <input type="email" name="email" placeholder="Enter an email" required><br><br>
+        <label>Password</label>
+        <input type="text" name="password" placeholder="Enter your password"><br><br>
+        <label><b>Gender</b></label>
+        <input type="radio" name="gender" value="male" >Male
+        <input type="radio" name="gender" value="female">Female
+        <br><br>
+        <label><b>Skills</b></label>
+        <input type="checkbox" name="skills" value="C programming">C programming
+        <input type="checkbox" name="skills" value="Python">Python
+        <input type="checkbox" name="skills" value="HTML">HTML
+        <br><br>
+        <label><b>Upload photo</b></label>
+        <br><br>
+        <input type="file">
+        <br><br>
+        <label for="country"><b>Country</b></label>
+        <select id="country" name="country">
+            <option value="IND">India</option>
+            <option value="CND">Canada</option>
+            <option value="KSA">Saudi Arabia</option>
+        </select>
+        <br><br>
+        <label for="message"><b>Message:</b></label>
+        <textarea id="message" name="message" rows="5" cols="10" placeholder="Enter your message here...">
+        </textarea>
+        <br><br>
+        <fieldset>
+            <legend><b>Account details</b></legend>
+            Username:
+            <input type="text" maxlength="20" name="username" placeholder="Enter the username"><br>
+            Password:
+            <input type="text" minlength="8" name="password" placeholder="Enter the password"><br>
+            Date of Birth:
+            <input type="date" name="dob"><br>
+</fieldset>
+<fieldset>
+            <legend><b>Personal details</b></legend>
+            Address:
+            <input type="text" maxlength="50" name="address" placeholder="Enter the address"><br>
+            Phone number:
+            <input type="number" name="phone" placeholder="Enter the phone number"><br>
+</fieldset>
+        <br><br>
+        </form>
+        <table border="1" cellspacing="4" cellpadding="5">
+            <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+            </tr>
+            <tr>
+            <td>Saja</td>
+            <td>20</td>
+            <td>saja@example.com</td>
+            </tr>
+            <tr>
+            <td>Sulaim</td>
+            <td>13</td>
+            <td>sulaim@example.com</td>
+            </tr>
+            <tr>
+            <td>Sajid</td>
+            <td>48</td>
+            <td>sajid@example.com</td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" value="Submit">
+    </body>
+</html>

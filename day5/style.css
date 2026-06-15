@@ -1,0 +1,17 @@
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+.logo-image{
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+.logo span{
+    color:rgb(248, 58, 58);
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+}
