@@ -2,14 +2,16 @@
 <html>
     <head>
         <title>Registration form</title>
+        <link rel="stylesheet" href="day2.css">
     </head>
     <body>
         <form action="#" method="POST" target="_blank" required>
-        <label for="name">Name</label>
+        <h1>Registration form</h1><br>
+        <div id="basic"><label for="name"><b>Name</b></label>
         <input type="text" name="name" placeholder="Enter a name " id="name" required><br><br>
-        <label >Email</label>
+        <label ><b>Email</b></label>
         <input type="email" name="email" placeholder="Enter an email" required><br><br>
-        <label>Password</label>
+        <label><b>Password</b></label>
         <input type="text" name="password" placeholder="Enter your password"><br><br>
         <label><b>Gender</b></label>
         <input type="radio" name="gender" value="male" >Male
@@ -77,5 +79,6 @@
         </table>
         <br>
         <input type="submit" value="Submit">
-    </body>
+    </div>
+        </body>
 </html>
