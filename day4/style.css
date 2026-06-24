@@ -1,7 +1,8 @@
 *{
-    border: 0
+    border: 0;
+
 }
-body{
+html,body{
     background: linear-gradient(90deg,#0b0817,#2631b2);
     overflow-x: hidden;
 }
@@ -56,13 +57,14 @@ body{
     
 }
 .home-text{
-    color: white;
+    color: rgb(255, 255, 255);
     margin-left: 130px;
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: -0.12em;
     position: relative;
     top: 50px;
+    line-height: 0.9;
     
     
 }
@@ -147,4 +149,70 @@ body{
     width: 50%;
     margin: auto;
     margin-top: 40px;
+}
+.violet-box{
+    width: 84%;
+    height: 600px;
+    margin: 100px;
+    border-radius: 100px;
+    background-color: rgba(81,90,190,0.7);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    backdrop-filter: blur(10px);
+
+}
+.video-card{
+    width: 59%;
+    height: 540px;
+    border-radius: 100px;
+    overflow: hidden;
+    margin: 27px;
+}
+.video-card video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.feature-text{
+    position: relative;
+    top: 130px;
+    left: 20px;
+}
+
+.feature-text h1{
+    font-size: 42px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: -3px;
+    margin-bottom: 0;
+    line-height: 0.9;
+
+
+}
+.feature-text p{
+    color: white;
+    font-size: 19px;
+    position: relative;
+    letter-spacing: 1px;
+    font-family: "Inter", Arial, sans-serif;
+    line-height: 1.4;
+}
+.bg-elements{
+    position: relative;
+}
+.teddy{
+    position: absolute;
+    left: 70%;
+    top: 18px;
+    width: 150px;
+
+}
+.shiny-2{
+    position: absolute;
+}
+.ball{
+    position: absolute;
+    width: 230px;
+    top: 540px;
 }
