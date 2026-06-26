@@ -263,4 +263,68 @@ header{
     width: 35px;
     height: 35px;
 }
+.last-page{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+}
+.conclusion h1{
+    font-size: 55px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.conclusion{
+    margin-top: 55px;
+    text-align: center;
+    line-height: 0.4;
+}
+.last-button{
+    margin-top: 90px;
+}
 
+.characters{
+    width: 1020px;
+}
+.last-bg{
+    margin-top: 130px;
+    position: relative;
+}
+.tiny{
+    position: absolute;
+    width: 350px;
+    left: 34%;
+    top: 50%;
+}
+.robot{
+    position: absolute;
+    width: 180px;
+    left: 5%;
+    top: 60%;
+
+}
+.hat{
+    position: absolute;
+    width: 350px;
+    left: 35%;
+    top: 30%;
+}
+footer{
+    background-color: #4e58ca;
+    height: 825px;
+    margin-top: 210px;
+
+}
+.ending{
+    display: flex;
+    position: relative;
+}
+.ending .discord-emoji{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+}
